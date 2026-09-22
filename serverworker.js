@@ -1,3 +1,5 @@
+
+
 self.addEventListener("install", e => {
   e.waitUntil(
     caches.open("medicine-box").then(cache => {
@@ -13,3 +15,4 @@ self.addEventListener("fetch", e => {
     })
   );
 });
+
